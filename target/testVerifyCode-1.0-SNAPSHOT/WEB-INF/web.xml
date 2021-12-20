@@ -15,16 +15,9 @@
         <servlet-name>VerifyCodeServlet</servlet-name>
         <servlet-class>com.zzz.testVerifyCode.servlet.VerifyCodeServlet</servlet-class>
     </servlet>
-    <servlet>
-        <servlet-name>getImageServlet</servlet-name>
-        <servlet-class>com.zzz.testVerifyCode.servlet.getImageServlet</servlet-class>
-    </servlet>
     <servlet-mapping>
         <servlet-name>VerifyCodeServlet</servlet-name>
         <url-pattern>/VerifyCodeServlet</url-pattern>
     </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>getImageServlet</servlet-name>
-        <url-pattern>/getImageServlet</url-pattern>
-    </servlet-mapping>
+
 </web-app>

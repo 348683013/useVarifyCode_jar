@@ -17,6 +17,7 @@ public class VerifyCodeServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //验证码生成路径
         String path = "D:\\testVerifyCode\\src\\main\\resources\\imgs";
-        VerifyCode.outputVerifyCodeImgToHtml(path, response);
+        String code = VerifyCode.outputVerifyCodeImgToHtml(path, response);
+        System.out.println(code);
     }
 }
